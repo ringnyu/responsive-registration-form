@@ -30,8 +30,6 @@ body {
 }
 
 .left-content {
-  /* margin-left: 4rem; */
-  border: 3px solid blue;
   margin: 2rem;
 }
 
@@ -50,9 +48,8 @@ body {
 .right-content {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  border: 3px solid purple;
-  
+  width: 100%;
+   
 }
 .trial-message {
   background-color: var(--blue);
@@ -111,16 +108,20 @@ input {
     flex-direction: column;
   }
   .left-content {
-    border: 2px solid red;
     padding-top: 6rem;
     margin: unset;
   }
+  .left-content p{
+    font-size: 12px;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
   .left-content h1{
-        font-size: 36px;
+      font-size: 36px;
   }
   .right-content {
     width: 100%;
-    border: 2px solid red;
+    
   }
   .form button {
    word-wrap: none;
